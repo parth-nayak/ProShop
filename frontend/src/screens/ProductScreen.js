@@ -6,6 +6,7 @@ import Rating from '../components/Rating';
 import Product from '../components/Product';
 
 const ProductScreen = ({match}) => {
+    // product
     const product = products.find(p => p._id === match.params.id);
     console.log('product', product)
     return (
